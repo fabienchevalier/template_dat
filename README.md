@@ -1,2 +1,5 @@
-# maleo-dat
-Maleo's DAT
+# Maleo's DAT
+
+```bash
+./build.sh
+```
