@@ -5,6 +5,7 @@
   - [Windows](#windows)
   - [Comment utiliser le template](#comment-utiliser-le-template)
     - [Makdown](#makdown)
+    - [Lancer un export du document](#lancer-un-export-du-document)
 
 ## MacOS
 
@@ -72,3 +73,19 @@ titlepage-logo: "img/logo_infratech.png"
 ```
 
 Pour afficher des petites infobulles dans le document, voir [https://github.com/Wandmalfarbe/pandoc-latex-template/raw/master/examples/boxes-with-pandoc-latex-environment-and-awesomebox/document.pdf](=>ici<=)
+
+### Lancer un export du document
+
+MacOS/Linux:
+
+```bash
+chmod+x build.sh && ./build.sh
+```
+
+Windows:
+
+```powershell
+./build.ps1
+```
+
+Le PDF sera situé dans le dossier `output/`
