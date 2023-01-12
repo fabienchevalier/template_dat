@@ -1,6 +1,10 @@
-# Maleo's DAT
+# Dossier Architecture Technique
 
-- [Maleo's DAT](#maleos-dat)
+<img src="icon.png" align="right" height="110"/>
+
+Based on [https://github.com/Wandmalfarbe/pandoc-latex-template](Eisvogel template project)
+
+- [Dossier Architecture Technique](#dossier-architecture-technique)
   - [MacOS](#macos)
   - [Windows](#windows)
   - [Comment utiliser le template](#comment-utiliser-le-template)
