@@ -2,7 +2,7 @@
 
 <img src="icon.png" align="right" height="110"/>
 
-Based on [https://github.com/Wandmalfarbe/pandoc-latex-template](Eisvogel template project)
+Based on [https://github.com/Wandmalfarbe/pandoc-latex-template](Eisvogel) project
 
 - [Dossier Architecture Technique](#dossier-architecture-technique)
   - [MacOS](#macos)
