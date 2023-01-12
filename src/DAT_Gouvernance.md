@@ -1,8 +1,8 @@
 ---
 # Document informations
 title: "Document d'Architecture Technique"
-author: [Fabien CHEVALIER]
-subject: "Gouvernance"
+author: [Prénom NOM]
+subject: "MISSION"
 date: "09-01-2023"
 keywords: [DAT, Gouvernance]
 
@@ -65,38 +65,4 @@ L'infrastructure présentée est majoritairement déployée sur le cloud Azure, 
 :::
 
 \newpage
-
-## Architecture
-
-### Schéma logique général d'architecture
-
-![Schéma logique gouvernance](img/schemes/gov_schema_general.png)
-
-\newpage
-
-### Contraintes identifiées
-
-| Scope                        | Type            | Description                                                            |
-| ---------------------------- | --------------- | ---------------------------------------------------------------------- |
-| Gestion des logs système     | Contrainte      | Rétention des logs systèmes sur 6 mois glissants                       |
-| Gestion des logs de sécurité | Contrainte      | Rétention des logs de sécurité (type firewall sur 12 mois glissants)   |
-| Supervision du stockage      | Contrainte| 
-| Solution MDM                 | Exigence client | Solution de MDM souhaitée pour l'ensemble du parc (mobile/desk/laptop) |
-| ITSM                         | Exigence client | Solution de gestion des tickets par mail/web attendue                  |
-| ITSM                         | Contrainte      | Inventaire complet à effectuer 1x par trimestre                        |
-
-
-### Revue des services
-
-#### Azure Active Directory
-
-##### Schéma logique de fonctionnement
-
-![Schéma logique monitoring](img/schemes/gov_schema_monitoring.png)
-
-##### Équipements on-premise
-
-La présence d’équipements réseaux on-site nécessite un agent installé.
-
-#### Accès à la plateforme (landing zone)
 
